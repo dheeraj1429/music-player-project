@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.music_contianer {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music_contianer .main_div {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.music_contianer .main_div .artist_name {
+  font-size: 0.8rem;
+  color: #777;
+  text-transform: uppercase;
+}
+
+.music_contianer .main_div .song_name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.music_contianer .main_div img {
+  width: 80%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons .fas {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem 1rem;
+}
+
+.playbtn {
+  border: 1px solid #555;
+  border-radius: 50%;
+}
+
+.playsong {
+  display: none;
+}
